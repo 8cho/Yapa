@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         billField.becomeFirstResponder()
-        billField.font = UIFont (name: "SourceCodePro-ExtraLight", size: 72)
+        billField.font = UIFont (name: "SourceCodePro-ExtraLight", size: 100)
         tipLabel.text = "$0.00"
         tipLabel.font = UIFont (name: "SourceCodePro-ExtraLight", size: 24)
         tipTitleLabel.font = UIFont (name: "SourceCodePro-Regular", size: 12)
