@@ -24,11 +24,15 @@ class ViewController: UIViewController {
         billField.becomeFirstResponder()
         billField.font = UIFont (name: "DS-Digital", size: 100)
         tipLabel.text = "$0.00"
+        tipLabel.alpha = 0
         tipLabel.font = UIFont (name: "Maven Pro", size: 24)
         tipTitleLabel.font = UIFont (name: "Maven Pro", size: 16)
+        tipTitleLabel.alpha = 0
         totalLabel.text = "$0.00"
+        totalLabel.alpha = 0
         totalLabel.font = UIFont (name: "Maven Pro", size: 42)
         totalTitleLabel.font = UIFont (name: "Maven Pro", size: 22)
+        totalTitleLabel.alpha = 0
         experienceLabel.font = UIFont (name: "Maven Pro", size: 17)
     }
 
@@ -46,6 +50,13 @@ class ViewController: UIViewController {
         var 💰 = billAmount * tipPercentage
         var 💸 = billAmount + 💰
         
+        UIView.animateWithDuration(0.4, animations: {
+            self.tipLabel.alpha = 1
+            self.tipTitleLabel.alpha = 1
+            self.totalLabel.alpha = 1
+            self.totalTitleLabel.alpha = 1
+        })
+        
         tipLabel.text = "$\(💰)"
         totalLabel.text = "$\(💸)"
         
@@ -53,7 +64,7 @@ class ViewController: UIViewController {
         totalLabel.text = String(format: "$%.2f", 💸)
     }
 
-// COMMENTING TO SAVE, BUT WANT THE KEYBOARD TO BE ALWAYS VISIBLE
+// COMMENTING TO SAVE CODE, BUT WANT THE KEYBOARD TO BE ALWAYS VISIBLE
 //    @IBAction func onTap(sender: AnyObject) {
 //        view.endEditing(true)
 //    }
