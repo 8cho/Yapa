@@ -12,8 +12,10 @@
 		B626259D19A5B76800F413ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B626259B19A5B76800F413ED /* Main.storyboard */; };
 		B626259F19A5B76800F413ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B626259E19A5B76800F413ED /* Images.xcassets */; };
 		B62625AB19A5B76800F413ED /* yapaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62625AA19A5B76800F413ED /* yapaTests.swift */; };
-		B6C9F79119A5CFE600FE08EC /* SourceCodePro-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6C9F78F19A5CFC300FE08EC /* SourceCodePro-ExtraLight.ttf */; };
-		B6C9F79219A5CFE900FE08EC /* SourceCodePro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6C9F79019A5CFC300FE08EC /* SourceCodePro-Regular.ttf */; };
+		B6B31C2C19A6AAA200637501 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B626259619A5B76800F413ED /* Info.plist */; };
+		B6B31C3019A6AAD600637501 /* MavenPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6B31C2D19A6AAD600637501 /* MavenPro-Bold.ttf */; };
+		B6B31C3119A6AAD600637501 /* MavenPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6B31C2E19A6AAD600637501 /* MavenPro-Regular.ttf */; };
+		B6C5974819A6C66F008F66FB /* DS-DIGI.TTF in Resources */ = {isa = PBXBuildFile; fileRef = B6C5974719A6C66F008F66FB /* DS-DIGI.TTF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +38,9 @@
 		B62625A419A5B76800F413ED /* yapaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yapaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62625A919A5B76800F413ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B62625AA19A5B76800F413ED /* yapaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yapaTests.swift; sourceTree = "<group>"; };
-		B6C9F78F19A5CFC300FE08EC /* SourceCodePro-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceCodePro-ExtraLight.ttf"; path = "../../../Downloads/Source_Code_Pro/SourceCodePro-ExtraLight.ttf"; sourceTree = "<group>"; };
-		B6C9F79019A5CFC300FE08EC /* SourceCodePro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceCodePro-Regular.ttf"; path = "../../../Downloads/Source_Code_Pro/SourceCodePro-Regular.ttf"; sourceTree = "<group>"; };
+		B6B31C2D19A6AAD600637501 /* MavenPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MavenPro-Bold.ttf"; sourceTree = "<group>"; };
+		B6B31C2E19A6AAD600637501 /* MavenPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MavenPro-Regular.ttf"; sourceTree = "<group>"; };
+		B6C5974719A6C66F008F66FB /* DS-DIGI.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DS-DIGI.TTF"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,8 +120,9 @@
 		B6C9F78E19A5CFA800FE08EC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				B6C9F78F19A5CFC300FE08EC /* SourceCodePro-ExtraLight.ttf */,
-				B6C9F79019A5CFC300FE08EC /* SourceCodePro-Regular.ttf */,
+				B6B31C2D19A6AAD600637501 /* MavenPro-Bold.ttf */,
+				B6B31C2E19A6AAD600637501 /* MavenPro-Regular.ttf */,
+				B6C5974719A6C66F008F66FB /* DS-DIGI.TTF */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -204,9 +208,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B626259D19A5B76800F413ED /* Main.storyboard in Resources */,
-				B6C9F79219A5CFE900FE08EC /* SourceCodePro-Regular.ttf in Resources */,
-				B6C9F79119A5CFE600FE08EC /* SourceCodePro-ExtraLight.ttf in Resources */,
+				B6B31C3119A6AAD600637501 /* MavenPro-Regular.ttf in Resources */,
+				B6B31C2C19A6AAA200637501 /* Info.plist in Resources */,
 				B626259F19A5B76800F413ED /* Images.xcassets in Resources */,
+				B6B31C3019A6AAD600637501 /* MavenPro-Bold.ttf in Resources */,
+				B6C5974819A6C66F008F66FB /* DS-DIGI.TTF in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

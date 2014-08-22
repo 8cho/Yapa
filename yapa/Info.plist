@@ -38,8 +38,9 @@
 	</array>
 	<key>UIAppFonts</key>
 	<array>
-		<string>SourceCodePro-ExtraLight.ttf</string>
-		<string>SourceCodePro-Regular.ttf</string>
+		<string>DS-DIGI.ttf</string>
+		<string>MavenPro-Regular.ttf</string>
+		<string>MavenPro-Bold.ttf</string>
 	</array>
 </dict>
 </plist>

@@ -22,14 +22,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         billField.becomeFirstResponder()
-        billField.font = UIFont (name: "SourceCodePro-ExtraLight", size: 100)
+        billField.font = UIFont (name: "DS-Digital", size: 100)
         tipLabel.text = "$0.00"
-        tipLabel.font = UIFont (name: "SourceCodePro-ExtraLight", size: 24)
-        tipTitleLabel.font = UIFont (name: "SourceCodePro-Regular", size: 12)
+        tipLabel.font = UIFont (name: "Maven Pro", size: 24)
+        tipTitleLabel.font = UIFont (name: "Maven Pro", size: 16)
         totalLabel.text = "$0.00"
-        totalLabel.font = UIFont (name: "SourceCodePro-Regular", size: 42)
-        totalTitleLabel.font = UIFont (name: "SourceCodePro-Regular", size: 18)
-        experienceLabel.font = UIFont (name: "SourceCodePro-Regular", size: 17)
+        totalLabel.font = UIFont (name: "Maven Pro", size: 42)
+        totalTitleLabel.font = UIFont (name: "Maven Pro", size: 22)
+        experienceLabel.font = UIFont (name: "Maven Pro", size: 17)
     }
 
     override func didReceiveMemoryWarning() {
